@@ -1,10 +1,10 @@
 import React from 'react'
+import ContentBlock from './ContentBlock';
 
 export default function Specialities() {
 	return (
-		<div className='content-block'>
-			<div className="inner-content">
-				<div className='row'>
+		<ContentBlock>
+			<div className='row'>
 				<div className="col">
 					<h3>Specialities</h3>
 				</div>
@@ -24,9 +24,7 @@ export default function Specialities() {
 						</div>
 					</div>
 				</div>
-				</div>
-
 			</div>
-		</div>
+		</ContentBlock>
 	)
 }
