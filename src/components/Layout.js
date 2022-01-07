@@ -5,7 +5,7 @@ import './layout.css';
 
 export default function Layout({ pageTitle, children }) {
 	return (
-		<div className='container'>
+		<div>
 			<title>({ pageTitle })</title>
 			<main>
 				<div className="title">

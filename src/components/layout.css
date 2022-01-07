@@ -7,13 +7,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-.container {
-	background-color: #f08e80;
-	color: #fff;
-	margin: 0;
-	padding: 0;
+html,
+body {
 	width: 100%;
-	min-height: 100vh;
+	overflow-x: hidden;
 }
 
 .title {
@@ -56,15 +53,6 @@ body {
 	width: 50%;
 }
 
-@media screen and (min-width: 0) and (max-width: 768px) {
-	.col {
-		width: 100%;
-	}
-	.row {
-		flex-direction: column;
-	}
-}
-
 .col p {
 	margin: 1rem 0;
 	word-wrap: break-word;
@@ -77,4 +65,26 @@ body {
 .brands {
 	background-color: #fdf0e6;
 	color: #000;
+}
+.header {
+	width: 100%;
+	line-height: 1.232;
+	padding: 6.6vmax 3vw 3vw 3vw;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	max-width: 1800px;
+}
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+	.col {
+		width: 100%;
+	}
+	.row {
+		flex-direction: column;
+	}
+	.inner-content {
+		width: 80%;
+	}
 }
