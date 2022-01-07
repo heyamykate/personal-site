@@ -3,5 +3,9 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "portfolio",
   },
-  plugins: ["gatsby-plugin-emotion", "gatsby-plugin-react-helmet"],
+  plugins: [
+    "gatsby-plugin-emotion", 
+    "gatsby-plugin-react-helmet", 
+    `gatsby-plugin-fontawesome-css`
+  ],
 };

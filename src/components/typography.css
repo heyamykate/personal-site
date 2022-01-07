@@ -1,0 +1,49 @@
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Cormorant";
+	font-weight: 400;
+	margin: 2rem 0;
+}
+
+h3 {
+	line-height: 1.3328;
+}
+
+h1 {
+	line-height: 1.232;
+}
+
+@media screen and (min-width: 0) and (max-width: 1907px) and (orientation: landscape) {
+	h1 {
+		font-size: calc((4 - 1) * 1.2vw + 1rem);
+	}
+	h3 {
+		font-size: calc((2.2 - 1) * 1.2vw + 1rem);
+	}
+	p {
+		font-size: calc((1.2 - 1) * 1.2vw + 1rem);
+	}
+}
+
+.headline {
+	text-align: center;
+	font-size: calc((2 - 1) * 1.2vw + 1rem);
+}
+
+.col h3 {
+	margin-top: 0;
+}
+
+p {
+	line-height: 1.6;
+}
+
+.citation {
+	font-size: calc((1 - 1) * 1.2vw + 1rem);
+}
+
+a {
+	color: #fff;
+}
