@@ -1,12 +1,11 @@
 import React from 'react'
-import { Container } from '../assets/style'
 
 import './typography.css';
 import './layout.css';
 
 export default function Layout({ pageTitle, children }) {
 	return (
-		<Container>
+		<div className='container'>
 			<title>({ pageTitle })</title>
 			<main>
 				<div className="title">
@@ -14,6 +13,6 @@ export default function Layout({ pageTitle, children }) {
 				</div>
 				{children}
 			</main>
-		</Container>
+		</div>
 	)
 }
